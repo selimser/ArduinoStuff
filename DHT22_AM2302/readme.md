@@ -29,9 +29,9 @@ if (isnan(humidityValue) || isnan(temperatureValue) || isnan(fahrenheitValue)) {
     return;
 }
 
-float hic = dht.computeHeatIndex(temperatureValue, humidityValue, true); //third argument can be skipped for Celsius as defaults to false
+float heatIndexValue = dht.computeHeatIndex(temperatureValue, humidityValue, true); //third argument can be skipped for Celsius as defaults to false
 
-Serial.print(hif);
+Serial.print(heatIndexValue);
 Serial.println(F("°F"));
 
 ```

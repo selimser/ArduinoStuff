@@ -1,7 +1,9 @@
-# ArduinoStuff
-A collection of Arduino stuff, mostly misc.
+# The Magnificent ArduinoStuff Repository
+A collection of Arduino stuff, mostly misc. It's more of a personal repository, but feel free to clone, modify, distribute and use wherever at your own risk.
 
-Currently on the list:
-* Item 1
-* Item 2
-* Item 3
+Currently in the repo:
+* DHT22_AM2302
+* On/Off Blinker
+* On/Off Fading
+* On/Off Fading with Flash
+* On/Off Rozzers' Strobe
